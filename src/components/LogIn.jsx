@@ -14,13 +14,17 @@ function LogIn(){
   }
 
 
+
+
   let container = {
     position: 'absolute',
     right: '0',
     margin: '20px',
     maxWidth: '300px',
     padding: '16px',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    transform: 'translateY(-1000%)',
+    padding: '10px'
   }
   return(
     <div>
