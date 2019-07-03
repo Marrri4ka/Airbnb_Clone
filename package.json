@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.12.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -27,5 +30,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.6",
+    "url-loader": "^0.6.2"
   }
 }
