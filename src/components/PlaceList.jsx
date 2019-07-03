@@ -18,7 +18,7 @@ function PlaceList() {
 
   let placeStyle = {
     position: "relative",
-    top: "200px",
+    top: "300px",
     zIndex: "3"
   }
 
@@ -33,11 +33,11 @@ function PlaceList() {
         <div  style={placeStyle}>
           <div className='row'>
             <div className='col-md-1'/>
-            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/300'/>
-            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/300'/>
-            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/300'/>
-            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/300'/>
-            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/300'/>
+            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/400'/>
+            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/400'/>
+            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/400'/>
+            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/400'/>
+            <Place name='London' price='100/per night' img = 'https://picsum.photos/200/400'/>
             <div className='col-md-1'/>
           </div>
           </div>

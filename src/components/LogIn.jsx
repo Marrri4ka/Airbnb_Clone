@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
-import home from '../assets/img/house.jpeg'
+import home from '../assets/img/house.jpeg';
+import LocalTime from './LocalTime';
 
 
 function LogIn(){
@@ -29,6 +30,7 @@ function LogIn(){
   return(
     <div>
       <Header/>
+      <LocalTime/>
           <div>
             <div style={styling}><img height="100%" width="100%" src = {home}/></div>
             <form style={container} action="/action_page.php" class="container">
